@@ -1,0 +1,30 @@
+//
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.
+[
+{
+        "key": "shift+s",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+{
+      "key": "ctrl+f","command": "actions.find"
+ },
+{
+      "key": "alt+left","command": "workbench.action.navigateBack"
+},
+ {
+        "key": "ctrl+w backspace",
+        "command": "workbench.action.closeWindow"
+    },
+ {
+        "key": "shift+alt+.",
+        "command": "-editor.action.autoFix",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)quickfix\\b/"
+    }
+
+     
+
+
+
+
+]
